@@ -171,6 +171,19 @@ footer p {
   font-weight: 500;
   transition: color 0.3s ease;
 }
+=======
+/* =========================
+   MOBILE RESPONSIVENESS
+   ========================= */
+
+@media screen and (max-width: 768px) {
+  /* Your responsive styles go here */
+
+  .example-class {
+    display: block;
+    padding: 1rem;
+  }
+}
   /* Navigation */
   .nav-links {
     flex-direction: column;
