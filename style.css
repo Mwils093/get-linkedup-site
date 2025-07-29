@@ -177,73 +177,66 @@ footer p {
    ========================= */
 
 @media screen and (max-width: 768px) {
-  /* Your responsive styles go here */
-
-  .example-class {
-    display: block;
-    padding: 1rem;
-  }
-}
   /* Navigation */
   .nav-links {
     flex-direction: column;
     gap: 10px;
   }
-  
+
   nav a {
     font-size: 18px;
     padding: 10px;
   }
-  
+
   /* Header */
   header {
     padding: 20px 10px;
   }
-  
+
   header h1 {
     font-size: 28px;
   }
-  
+
   header h2 {
     font-size: 20px;
   }
-  
+
   /* Hero Section */
   .hero-section {
     flex-direction: column;
     gap: 0;
   }
-  
+
   .hero-text {
     padding: 30px 20px;
     border-radius: 20px 20px 0 0;
   }
-  
+
   .hero-text h2 {
     font-size: 32px;
   }
-  
+
   .hero-text p {
     font-size: 18px;
   }
-  
+
   .workspace {
     justify-content: center;
     align-items: center;
   }
-  
+
   .workspace img {
     width: 100%;
     height: 50vh;
     border-radius: 0 0 10px 10px;
   }
-  
+
   /* Footer */
   footer {
     padding: 15px 10px;
     font-size: 1.2rem;
   }
-  
+
   .social-links {
     gap: 20px;
     flex-wrap: wrap;
@@ -255,23 +248,23 @@ footer p {
   .nav-links {
     gap: 5px;
   }
-  
+
   .hero-text {
     padding: 20px 15px;
   }
-  
+
   .hero-text h2 {
     font-size: 24px;
   }
-  
+
   .hero-text p {
     font-size: 16px;
   }
-  
+
   .workspace img {
     height: 40vh;
   }
-  
+
   .cta-button {
     padding: 10px 20px;
     font-size: 16px;
